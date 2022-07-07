@@ -36,3 +36,24 @@
     transform: rotate(360deg);
   }
 }
+.divheader{
+  width: 1000px;
+  margin: 40px auto; 
+  border: 1px solid black;
+  background-color: wheat;
+}
+.headerhome{
+  height: 140px;
+    width: 100%;
+    text-align: center;
+    line-height: 80px;
+    font-size: 20px;
+    color: black;
+}
+
+.lihome{
+  display: inline-block;
+    list-style: none;
+    margin: 15px;
+    margin-left: 80px;
+}
