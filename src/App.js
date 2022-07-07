@@ -1,23 +1,11 @@
 
 import './App.css';
-
+import NavBar from './components/NavBar';
 function App() {
   return (
     <div className="divheader">
       <header className="headerhome">
-      <nav>
-        <ul>
-          <li className="lihome">
-            <a href="Home">Home</a>
-          </li>
-          <li className="lihome">
-            <a href="Bebidas">Bebidas</a>
-          </li>
-          <li className="lihome">
-            <a href="Nosotros">Nosotros</a>
-          </li>
-        </ul>
-      </nav>
+      <NavBar/>
       </header>
       
     </div>
