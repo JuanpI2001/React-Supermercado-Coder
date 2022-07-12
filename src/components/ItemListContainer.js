@@ -1,3 +1,4 @@
+import ItemCount from "./ItemCount";
 
 const ItemListContainer =(props)=> {
     return(
@@ -5,6 +6,7 @@ const ItemListContainer =(props)=> {
         <h2>
             {props.titulo}
         </h2>
+        <ItemCount />
         </>
     );
 }
